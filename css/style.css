@@ -41,7 +41,7 @@ header .h-menu span:hover::after{transform: translateY(-3px);transition: 0.2s;}
  **************************/
 #side-menu{background: white;position: absolute;right: 0;top: 0;bottom: 0;width: 0;transition: 0.5s;}
 #side-menu .menubar ul li{list-style: none;margin: 8px;}
-.extra{width: 200px!important;padding: 24px 42px!important;box-shadow: 0 -10px 10px 5px rgb(231 231 231 / 50%);transition: 0.5s;}
+.extra{width: 300px!important;padding: 24px 42px!important;box-shadow: 0 -10px 10px 5px rgb(231 231 231 / 50%);transition: 0.5s;}
 .menubar ul li a{color: black;}
 .menubar ul li a:hover{color: #f79918;transition: 0.5s;}
 
@@ -59,6 +59,8 @@ header .h-menu span:hover::after{transform: translateY(-3px);transition: 0.2s;}
 .author h6{font-size: 18px;color: #222;font-weight: 600;padding-top: 16px;} 
 .author p{color: #999;font-size: 14px;font-weight: 400;} 
 #banner .owl-nav{display: none;}
+#banner .owl-nav:hover{color: #f79918;}
+#banner .item{border-right: 2px solid #999;}
 
 
 /***************************
@@ -72,9 +74,9 @@ header .h-menu span:hover::after{transform: translateY(-3px);transition: 0.2s;}
  post catagory section css
  **************************/
 #post{width: 100%;padding: 100px 0px;}
-#post .i-img img{width: 500px;}
-#post .cat-name a{color: #222;font-weight: 600;}
-#post h2{font-size: 22px;margin-right: 22px;color: #222;line-height: 1.2;font-weight: 700;}
+#post .i-img img{width: 600px;}
+a{color: #222;font-weight: 600;}
+h2{font-size: 22px;margin-right: 20px;color: #222;line-height: 1.2;font-weight: 700;}
 #post a {text-decoration: none;}
 #post .author {margin-top: -15px;margin-left: 10px;}
 
@@ -110,3 +112,45 @@ header .h-menu span:hover::after{transform: translateY(-3px);transition: 0.2s;}
 center a{text-decoration: none;font-size: 14px;color: #888;transition: 0.5s;}
 center a:hover{text-decoration: underline;color: #222;transition: 0.5s;display: inline-block;}
 
+
+/***************************
+Categories section css
+ **************************/
+#Categories{width: 100%;padding: 100px 0;}
+#Categories h1{font-size: 40px;font-weight: 700;color: #000;}
+
+
+/***************************
+ pagination section css
+ **************************/
+#b-pagination{width: 100%;padding: 60px 0px;}
+.nav-item{transform: translateX(450px);}
+.pagination-lg .page-item:last-child .page-link {border-top-right-radius: 100%;border-bottom-right-radius: 100%;}
+.page-item:last-child .page-link {border-top-right-radius: 100%;border-bottom-right-radius: 100%;}
+.pagination-lg .page-item:first-child .page-link {border-top-left-radius: 100%;border-bottom-left-radius: 100%;}
+.page-item:first-child .page-link {border-top-left-radius: 100%;border-bottom-left-radius: 100%;}
+.page-item .page-link{border-radius: 100%;background-color: rgba(247, 153, 24, 0.1);color: #f79918;
+                      border-color: rgba(247, 153, 24, 0.1);margin-right: 20px;}
+.page-item .page-link:hover{background-color: #f79918;border-color: #f79918;color: #fff;}
+.page-item.active .page-link {z-index: 3;color: #fff;background-color: #f79918;border-color: #f79918;}
+.pagination-lg{margin-bottom: 50px;}
+
+
+/***************************
+ unhappy customers section css
+ **************************/
+#un-customers{width: 100%;padding: 50px 0;}
+.gallery-img{display: grid;grid-template-columns: auto auto auto!important;}
+#un-customers .s-c {font-size: 20px;color: #888;}
+#side .date {font-size: 16px;color: #888;}
+#un-customers h2 {font-weight: 700;font-size: 38px;font-family: "Poppins", sans-serif;color: #000;line-height: 1.2;}
+#un-customers .p-item {font-size: 1.25rem;font-weight: 400;color: #888;line-height: 1.5;}
+#un-customers .pp-item {font-size: 19px;line-height: 1.7;color: #888;display: block;margin-block-start: 1em;
+                         margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px;margin-bottom: 1rem;
+                         display: inline-block;text-align: justify;font-weight: 400;}
+#un-customers blockquote {font-family: "Georgia", serif;font-style: italic;padding-left: 40px;border-left: 2px solid #000;}
+#un-customers blockquote .ppp-item {font-size: 18px;line-height: 1.5;color: #888;text-align: justify;font-weight: 400;font-family: "Georgia", serif;}
+#un-customers .s-img img {width: 243px;height: 212px;}
+#un-customers .h-item {border-top: 1px solid rgb(218, 214, 214);padding-top: 50px;}
+#un-customers .i-frem a i {padding-left: 13px;font-size: 20px;color: #000;transition: 0.3s;}
+#un-customers .i-frem a i:hover {color: #f79918;transition: 0.3s;}
