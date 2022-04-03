@@ -69,7 +69,7 @@ header .h-menu span:hover::after{transform: translateY(-3px);transition: 0.2s;}
 .author p{color: #999;font-size: 14px;font-weight: 400;} 
 #banner .owl-nav{display: none;}
 #banner .owl-nav:hover{color: #f79918;}
-#banner .item{border-right: 2px solid #999;}
+#banner .item{border-right: 1px solid #999;}
 
 
 /***************************
